@@ -1,0 +1,59 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FirstPage.master.cs" Inherits="FirstPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Business Events</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+        <style type="text/css">
+            .style1
+            {
+                width: 100%;
+            }
+        </style>
+</head>
+
+<body alink="#ffffff">
+    <form id="form1" runat="server">
+<div id="topPan">
+	&nbsp;</div>
+<div id="headerPan">
+  <div id="headerleftPan"><img src="images/blank.gif" alt="" width="1" height="1" /></div>
+  <div id="headermiddlePan">
+  	<div id="menuPan">
+		<ul>
+			<li><a href="home.aspx">Home</a></li>
+            
+			<li><a href="aboutus.aspx">About Us</a></li>
+			<li><a href="Login.aspx">Login</a></li>
+			<li><a href="Contactus.aspx">Contact Us</a></li>
+		</ul>
+
+	</div>
+	<div id="headerbodyPan">
+	    <table class="style1">
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+	    <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+	</div>
+  </div>
+</div>
+ 
+    </form>
+ 
+</body>
+</html>
